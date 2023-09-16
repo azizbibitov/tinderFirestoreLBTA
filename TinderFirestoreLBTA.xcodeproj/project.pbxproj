@@ -14,6 +14,8 @@
 		047E714E2AB588CE009643BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047E714D2AB588CE009643BF /* Assets.xcassets */; };
 		047E71512AB588CE009643BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047E714F2AB588CE009643BF /* LaunchScreen.storyboard */; };
 		047E715A2AB588F4009643BF /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E71592AB588F4009643BF /* Extensions+UIView.swift */; };
+		047E715D2AB58E17009643BF /* HomeBottomControlsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E715C2AB58E17009643BF /* HomeBottomControlsStackView.swift */; };
+		047E715F2AB58E27009643BF /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E715E2AB58E27009643BF /* TopNavigationStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		047E71502AB588CE009643BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047E71522AB588CE009643BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047E71592AB588F4009643BF /* Extensions+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		047E715C2AB58E17009643BF /* HomeBottomControlsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomControlsStackView.swift; sourceTree = "<group>"; };
+		047E715E2AB58E27009643BF /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		047E71432AB588CE009643BF /* TinderFirestoreLBTA */ = {
 			isa = PBXGroup;
 			children = (
+				047E715B2AB58E0E009643BF /* Views */,
 				047E71582AB588EB009643BF /* Extensions */,
 				047E71442AB588CE009643BF /* AppDelegate.swift */,
 				047E71462AB588CE009643BF /* SceneDelegate.swift */,
@@ -76,6 +81,15 @@
 				047E71592AB588F4009643BF /* Extensions+UIView.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		047E715B2AB58E0E009643BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				047E715C2AB58E17009643BF /* HomeBottomControlsStackView.swift */,
+				047E715E2AB58E27009643BF /* TopNavigationStackView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +165,8 @@
 			files = (
 				047E71492AB588CE009643BF /* ViewController.swift in Sources */,
 				047E71452AB588CE009643BF /* AppDelegate.swift in Sources */,
+				047E715D2AB58E17009643BF /* HomeBottomControlsStackView.swift in Sources */,
+				047E715F2AB58E27009643BF /* TopNavigationStackView.swift in Sources */,
 				047E715A2AB588F4009643BF /* Extensions+UIView.swift in Sources */,
 				047E71472AB588CE009643BF /* SceneDelegate.swift in Sources */,
 			);
@@ -228,7 +244,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -282,7 +298,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
