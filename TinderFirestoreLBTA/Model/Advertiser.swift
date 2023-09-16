@@ -5,6 +5,7 @@
 //  Created by Aziz Bibitov on 16.09.2023.
 //
 
+
 import UIKit
 
 struct Advertiser: ProducesCardViewModel {
@@ -17,6 +18,6 @@ struct Advertiser: ProducesCardViewModel {
         
         attributedString.append(NSAttributedString(string: "\n" + brandName, attributes: [.font: UIFont.systemFont(ofSize: 24, weight: .bold)]))
         
-        return CardViewModel(imageName: posterPhotoName, attributedString: attributedString, textAlignment: .center)
+        return CardViewModel(imageNames: [posterPhotoName], attributedString: attributedString, textAlignment: .center)
     }
 }
