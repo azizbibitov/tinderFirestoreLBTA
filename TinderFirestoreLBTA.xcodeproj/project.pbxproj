@@ -58,6 +58,7 @@
 		049422C52ABAE31100BD6860 /* FirebaseAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049422972ABAE30000BD6860 /* FirebaseAnalytics.xcframework */; };
 		049422C72ABAE31200BD6860 /* BoringSSL-GRPC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049422982ABAE30000BD6860 /* BoringSSL-GRPC.xcframework */; };
 		049422CA2ABAE54300BD6860 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049422C92ABAE54300BD6860 /* GoogleService-Info.plist */; };
+		049422CC2ABAECF300BD6860 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049422CB2ABAECF300BD6860 /* Bindable.swift */; };
 		335D08F82A21FABA124EBB81 /* Pods_TinderFirestoreLBTA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59155464CEC476096237726B /* Pods_TinderFirestoreLBTA.framework */; };
 /* End PBXBuildFile section */
 
@@ -111,6 +112,7 @@
 		049422972ABAE30000BD6860 /* FirebaseAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseAnalytics.xcframework; path = Carthage/Build/FirebaseAnalytics.xcframework; sourceTree = "<group>"; };
 		049422982ABAE30000BD6860 /* BoringSSL-GRPC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "BoringSSL-GRPC.xcframework"; path = "Carthage/Build/BoringSSL-GRPC.xcframework"; sourceTree = "<group>"; };
 		049422C92ABAE54300BD6860 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		049422CB2ABAECF300BD6860 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
 		3F60D81FE08371B263F0682F /* Pods-TinderFirestoreLBTA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderFirestoreLBTA.release.xcconfig"; path = "Target Support Files/Pods-TinderFirestoreLBTA/Pods-TinderFirestoreLBTA.release.xcconfig"; sourceTree = "<group>"; };
 		59155464CEC476096237726B /* Pods_TinderFirestoreLBTA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderFirestoreLBTA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8097538D59CFD575C20E229 /* Pods-TinderFirestoreLBTA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderFirestoreLBTA.debug.xcconfig"; path = "Target Support Files/Pods-TinderFirestoreLBTA/Pods-TinderFirestoreLBTA.debug.xcconfig"; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 				047E71482AB588CE009643BF /* HomeController.swift */,
 				047E716E2AB5A688009643BF /* RegistrationController.swift */,
 				047E71722AB5D6E8009643BF /* RegistrationViewModel.swift */,
+				049422CB2ABAECF300BD6860 /* Bindable.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 				047E71642AB59472009643BF /* User.swift in Sources */,
 				047E716F2AB5A688009643BF /* RegistrationController.swift in Sources */,
 				047E715F2AB58E27009643BF /* TopNavigationStackView.swift in Sources */,
+				049422CC2ABAECF300BD6860 /* Bindable.swift in Sources */,
 				047E71712AB5A69C009643BF /* CustomTextField.swift in Sources */,
 				047E71732AB5D6E8009643BF /* RegistrationViewModel.swift in Sources */,
 				047E715A2AB588F4009643BF /* Extensions+UIView.swift in Sources */,
