@@ -16,38 +16,52 @@ class RegistrationController: UIViewController {
         button.titleLabel?.font = UIFont.systemFont(ofSize: 32, weight: .heavy)
         button.backgroundColor = .white
         button.setTitleColor(.black, for: .normal)
-        button.heightAnchor.constraint(equalToConstant: 275).isActive = true
         button.layer.cornerRadius = 16
         return button
     }()
+    lazy var selectPhotoButtonWidthAnchor = selectPhotoButton.widthAnchor.constraint(equalToConstant: 275)
+    lazy var selectPhotoButtonHeightAnchor = selectPhotoButton.heightAnchor.constraint(equalToConstant: 275)
     
     let fullNameTextField: CustomTextField = {
-        let tf = CustomTextField(padding: 24, height: 44)
+        let tf = CustomTextField(padding: 24, height: 50)
         tf.placeholder = "Enter full name"
-        tf.backgroundColor = .white
+        tf.addTarget(self, action: #selector(handleTextChange), for: .editingChanged)
         return tf
     }()
     let emailTextField: CustomTextField = {
-        let tf = CustomTextField(padding: 24, height: 44)
+        let tf = CustomTextField(padding: 24, height: 50)
         tf.placeholder = "Enter email"
         tf.keyboardType = .emailAddress
-        tf.backgroundColor = .white
+        tf.addTarget(self, action: #selector(handleTextChange), for: .editingChanged)
         return tf
     }()
     let passwordTextField: CustomTextField = {
-        let tf = CustomTextField(padding: 24, height: 44)
+        let tf = CustomTextField(padding: 24, height: 50)
         tf.placeholder = "Enter password"
         tf.isSecureTextEntry = true
-        tf.backgroundColor = .white
+        tf.addTarget(self, action: #selector(handleTextChange), for: .editingChanged)
         return tf
     }()
+    
+    @objc fileprivate func handleTextChange(textField: UITextField) {
+        if textField == fullNameTextField {
+            registrationViewModel.fullName = textField.text
+        } else if textField == emailTextField {
+            registrationViewModel.email = textField.text
+        } else {
+            registrationViewModel.password = textField.text
+        }
+    }
     
     let registerButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Register", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: .heavy)
-        button.backgroundColor = #colorLiteral(red: 0.8235294118, green: 0, blue: 0.3254901961, alpha: 1)
+//        button.backgroundColor = #colorLiteral(red: 0.8235294118, green: 0, blue: 0.3254901961, alpha: 1)
+        button.backgroundColor = .lightGray
+        button.setTitleColor(.gray, for: .disabled)
+        button.isEnabled = false
         button.heightAnchor.constraint(equalToConstant: 44).isActive = true
         button.layer.cornerRadius = 22
         return button
@@ -60,9 +74,27 @@ class RegistrationController: UIViewController {
         setupLayout()
         setupNotificationObservers()
         setupTapGesture()
+        setupRegistrationViewModelObserver()
     }
     
     // MARK:- Private
+    
+    let registrationViewModel = RegistrationViewModel()
+    
+    fileprivate func setupRegistrationViewModelObserver() {
+        registrationViewModel.isFormValidObserver = { [unowned self] (isFormValid) in
+            print("Form is changing, is it valid?", isFormValid)
+            
+            self.registerButton.isEnabled = isFormValid
+            if isFormValid {
+                self.registerButton.backgroundColor = #colorLiteral(red: 0.8235294118, green: 0, blue: 0.3254901961, alpha: 1)
+                self.registerButton.setTitleColor(.white, for: .normal)
+            } else {
+                self.registerButton.backgroundColor = .lightGray
+                self.registerButton.setTitleColor(.gray, for: .normal)
+            }
+        }
+    }
     
     fileprivate func setupTapGesture() {
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTapDismiss)))
@@ -110,7 +142,6 @@ class RegistrationController: UIViewController {
             registerButton
             ])
         sv.axis = .vertical
-        sv.distribution = .fillEqually
         sv.spacing = 8
         return sv
     }()
@@ -121,11 +152,16 @@ class RegistrationController: UIViewController {
         ])
     
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
-        traitCollection.horizontalSizeClass
         if self.traitCollection.verticalSizeClass == .compact {
             overallStackView.axis = .horizontal
+            verticalStackView.distribution = .fillEqually
+            selectPhotoButtonHeightAnchor.isActive = false
+            selectPhotoButtonWidthAnchor.isActive = true
         } else {
             overallStackView.axis = .vertical
+            verticalStackView.distribution = .fill
+            selectPhotoButtonWidthAnchor.isActive = false
+            selectPhotoButtonHeightAnchor.isActive = true
         }
     }
     
@@ -133,8 +169,6 @@ class RegistrationController: UIViewController {
         view.addSubview(overallStackView)
         
         overallStackView.axis = .vertical
-        
-        selectPhotoButton.widthAnchor.constraint(equalToConstant: 275).isActive = true
         overallStackView.spacing = 8
         overallStackView.anchor(top: nil, leading: view.leadingAnchor, bottom: nil, trailing: view.trailingAnchor, padding: .init(top: 0, left: 50, bottom: 0, right: 50))
         overallStackView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true

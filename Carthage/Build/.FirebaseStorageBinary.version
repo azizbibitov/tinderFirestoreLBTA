@@ -1,0 +1,198 @@
+{
+  "Mac" : [
+    {
+      "hash" : "3e31f99046960acde4946a9551ba02c6ca37a43259c1a04dcf1d0afa2a803130",
+      "name" : "FirebaseAppCheckInterop",
+      "container" : "FirebaseAppCheckInterop.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "hash" : "d3450436838af87e6ec89638856a5e05165c5bd5d2a05e4409c72ea08fd2dc84",
+      "name" : "FirebaseAuthInterop",
+      "container" : "FirebaseAuthInterop.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "hash" : "d33551cb8b6e42914900d95cbb1c6acc2e68d4f5a8bca81aa23f890cc0e5ba91",
+      "name" : "FirebaseCoreExtension",
+      "container" : "FirebaseCoreExtension.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "db02a056cf7af624cc12f869548e1bcaa74369d027e42bf31d5ec8add2a5fd35",
+      "name" : "FirebaseStorage",
+      "container" : "FirebaseStorage.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "hash" : "6f076ee1193d15fa3317f4d6d71214b45399690546e1476426027f5b677a232f",
+      "name" : "GTMSessionFetcher",
+      "container" : "GTMSessionFetcher.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "hash" : "8410b867b74562d0d67a2cdcd0160d003c8c9098178d229b1018812a710f74f6",
+      "name" : "FirebaseAppCheckInterop",
+      "container" : "FirebaseAppCheckInterop.xcframework",
+      "identifier" : "tvos-arm64"
+    },
+    {
+      "hash" : "c7aef64c4ee0a54a23b6d96b98b17ab73eeb7c241dae8dbf7e14eecbfe4323e1",
+      "name" : "FirebaseAppCheckInterop",
+      "container" : "FirebaseAppCheckInterop.xcframework",
+      "identifier" : "tvos-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "2fe707fa1d919e083e7650e020de31432ec590a5e6283978d20144806da36e26",
+      "name" : "FirebaseAuthInterop",
+      "container" : "FirebaseAuthInterop.xcframework",
+      "identifier" : "tvos-arm64"
+    },
+    {
+      "hash" : "5cdb1620a3fb40431a5753a423056f4f36ee352869a968a6ace62be5a1c0ed1a",
+      "name" : "FirebaseAuthInterop",
+      "container" : "FirebaseAuthInterop.xcframework",
+      "identifier" : "tvos-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "be9f0fe474d273a71a8d8a2b0f5e4c881f7f3e2561b325da49c55a7726fefb96",
+      "name" : "FirebaseCoreExtension",
+      "container" : "FirebaseCoreExtension.xcframework",
+      "identifier" : "tvos-arm64"
+    },
+    {
+      "hash" : "2c81e71c34e4fc1e4d9d5e1e65ab48b8c0e67ba6343f504a4235c8532a22a948",
+      "name" : "FirebaseCoreExtension",
+      "container" : "FirebaseCoreExtension.xcframework",
+      "identifier" : "tvos-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "26942e9d007e378b8247b8f69346871bd2035d02488d593a842f98cb7996d7d9",
+      "name" : "FirebaseStorage",
+      "container" : "FirebaseStorage.xcframework",
+      "identifier" : "tvos-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "28f6354ccc368f6b57ae297217d0fdee40d51f00631f3e9e63f3574024ae8935",
+      "name" : "FirebaseStorage",
+      "container" : "FirebaseStorage.xcframework",
+      "identifier" : "tvos-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "2091b3761565aca5d67c5447316c9f7ebd3d3df182f3520ed87d1528f36f1bee",
+      "name" : "GTMSessionFetcher",
+      "container" : "GTMSessionFetcher.xcframework",
+      "identifier" : "tvos-arm64"
+    },
+    {
+      "hash" : "8b7cd5ccf778e51cab83c462bd46d1b2539b0784e93c50638621b128253208e2",
+      "name" : "GTMSessionFetcher",
+      "container" : "GTMSessionFetcher.xcframework",
+      "identifier" : "tvos-arm64_x86_64-simulator"
+    }
+  ],
+  "commitish" : "10.15.0",
+  "iOS" : [
+    {
+      "hash" : "2147165c3c8fab4f6652bc93d2048ef212dff6f8582890c951431456512b1102",
+      "name" : "FirebaseAppCheckInterop",
+      "container" : "FirebaseAppCheckInterop.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "bbf0353c43d0ea623eb05c8c373b30d0eaf76615f12fb1b31ba34f682b336184",
+      "name" : "FirebaseAppCheckInterop",
+      "container" : "FirebaseAppCheckInterop.xcframework",
+      "identifier" : "ios-arm64_x86_64-maccatalyst"
+    },
+    {
+      "hash" : "375ed28aaada841a7295bed72b1145d8e512d6203892106b8b0e360949674044",
+      "name" : "FirebaseAppCheckInterop",
+      "container" : "FirebaseAppCheckInterop.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "15a2eed67ef7c2fc6ab990e2a70c8a2a0a6a1ddb9880fc3eff59acd71169501d",
+      "name" : "FirebaseAuthInterop",
+      "container" : "FirebaseAuthInterop.xcframework",
+      "identifier" : "ios-arm64_x86_64-maccatalyst"
+    },
+    {
+      "hash" : "649dba4d0e57b38f48a0bf797987942f9af8d72339a912035a2880a0f7207abd",
+      "name" : "FirebaseAuthInterop",
+      "container" : "FirebaseAuthInterop.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "9cc446db09a59c0f79cf740828f78996d0e3bcc0ee2a2dbc4a435ec0964353a0",
+      "name" : "FirebaseAuthInterop",
+      "container" : "FirebaseAuthInterop.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "17f58e5549bebe75ca95702d371795deb247c9d4b2814a50d992b690c2a27962",
+      "name" : "FirebaseCoreExtension",
+      "container" : "FirebaseCoreExtension.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "c1e483613f870371d55ea8e30ae0d2b0ca879977292078b181d165deae1dd9d7",
+      "name" : "FirebaseCoreExtension",
+      "container" : "FirebaseCoreExtension.xcframework",
+      "identifier" : "ios-arm64_x86_64-maccatalyst"
+    },
+    {
+      "hash" : "2ac170f84a9ece1e672493517f6f4c35ed803318947fa42ed717e78b27268254",
+      "name" : "FirebaseCoreExtension",
+      "container" : "FirebaseCoreExtension.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "4521b9bde58d7ae78512abd22a97a7c4d8f58dbef09e5fdefdb3a39a714d9f22",
+      "name" : "FirebaseStorage",
+      "container" : "FirebaseStorage.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "b7e149c519d0011f77798603ce92e646da4a6c5975c21de28d3d4703e5db0d0c",
+      "name" : "FirebaseStorage",
+      "container" : "FirebaseStorage.xcframework",
+      "identifier" : "ios-arm64_x86_64-maccatalyst"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "79b7554af79057b686253d1e75140b9a18b7f554e18f45343caf5e2faaa0520d",
+      "name" : "FirebaseStorage",
+      "container" : "FirebaseStorage.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "55a2d40d4b348547cc4e3aa3d18cde5253041b97dba5ae200bc2e163d4c4cd39",
+      "name" : "GTMSessionFetcher",
+      "container" : "GTMSessionFetcher.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "93ab21f30254faff0545633c00c45440b66b95fdef01f45d36935bc7443a5fdb",
+      "name" : "GTMSessionFetcher",
+      "container" : "GTMSessionFetcher.xcframework",
+      "identifier" : "ios-arm64_x86_64-maccatalyst"
+    },
+    {
+      "hash" : "d20a3be3e215eb0528a20cd656a824d5c21d9849ded24f3624bfbffc7de04dc7",
+      "name" : "GTMSessionFetcher",
+      "container" : "GTMSessionFetcher.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "Mac" : [
+    {
+      "hash" : "d79909a049ea28278bbefb1cf1b3315aa2bb5e96541465345b906359d51531a9",
+      "name" : "FirebaseDatabase",
+      "container" : "FirebaseDatabase.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "39356c7a8ef4c85e8c92df1a1fcb1239d0cdba4bfbd30397df250e70b2b906ed",
+      "name" : "FirebaseDatabaseSwift",
+      "container" : "FirebaseDatabaseSwift.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "dadcce839f4488cecfc184efa35af77238ab6380083e6bc0c5f98375f9bf6374",
+      "name" : "FirebaseSharedSwift",
+      "container" : "FirebaseSharedSwift.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "hash" : "03335f928f579eef2cb0cad341132ab194d61d599f99ba08e08f8c126512b687",
+      "name" : "leveldb-library",
+      "container" : "leveldb-library.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "hash" : "c579a0158b70a865f1eba1ecf1e27aaf88e70cd56c5acae90612683df6322c0c",
+      "name" : "FirebaseDatabase",
+      "container" : "FirebaseDatabase.xcframework",
+      "identifier" : "tvos-arm64"
+    },
+    {
+      "hash" : "719eebc68c6db2e2954b2edc39df703fcc2016f32608e474ae4ea5eeb795a2ca",
+      "name" : "FirebaseDatabase",
+      "container" : "FirebaseDatabase.xcframework",
+      "identifier" : "tvos-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "3673cb2661693b3f5b641aa5d7a23877967632110d2a2b095c02c99dc49d0c39",
+      "name" : "FirebaseDatabaseSwift",
+      "container" : "FirebaseDatabaseSwift.xcframework",
+      "identifier" : "tvos-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "2440fea015d982b2f6c41a1bc7f6f60e118bb4060cac774cd960ec1635bf2301",
+      "name" : "FirebaseDatabaseSwift",
+      "container" : "FirebaseDatabaseSwift.xcframework",
+      "identifier" : "tvos-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "1285c791518369e8a9aa7b700b74ffcc61876f25c1b57a56069282bd958e0122",
+      "name" : "FirebaseSharedSwift",
+      "container" : "FirebaseSharedSwift.xcframework",
+      "identifier" : "tvos-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "ac18a17846487f05c947598ded17c48b86ccc5c637290def10b6118292f05474",
+      "name" : "FirebaseSharedSwift",
+      "container" : "FirebaseSharedSwift.xcframework",
+      "identifier" : "tvos-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "fbffd04e035f48be9e651fe34f4fae5cee4ebf40bf487b280b77401d2f4de460",
+      "name" : "leveldb-library",
+      "container" : "leveldb-library.xcframework",
+      "identifier" : "tvos-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "b511c34ffc5e55e7bff2cbf404bda0e2bc752564d686d725677e8fb517fe605a",
+      "name" : "leveldb-library",
+      "container" : "leveldb-library.xcframework",
+      "identifier" : "tvos-arm64"
+    }
+  ],
+  "commitish" : "10.15.0",
+  "iOS" : [
+    {
+      "hash" : "9797444496f02104512077904e07bc77d6f637c74b7b7ff4d12481f82df053bd",
+      "name" : "FirebaseDatabase",
+      "container" : "FirebaseDatabase.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "59babf2446b31b9cd75c75fe789785b2602b23d308ba878ddc0ecb3d9266a691",
+      "name" : "FirebaseDatabase",
+      "container" : "FirebaseDatabase.xcframework",
+      "identifier" : "ios-arm64_x86_64-maccatalyst"
+    },
+    {
+      "hash" : "c1c4073f4b3c29b1ec8839ee9addec703bb9a3c5befe987630fa28a12cc75d10",
+      "name" : "FirebaseDatabase",
+      "container" : "FirebaseDatabase.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "2453e7b4705980d96c3beb60aa727e4ba73808c716ec4f90859049da55780d2c",
+      "name" : "FirebaseDatabaseSwift",
+      "container" : "FirebaseDatabaseSwift.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "5dd6ae4fb011eb0fcba3f5c2b218bf37f2de53bf59b02c1a209d02436c73968e",
+      "name" : "FirebaseDatabaseSwift",
+      "container" : "FirebaseDatabaseSwift.xcframework",
+      "identifier" : "ios-arm64_x86_64-maccatalyst"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "fde0738c548adcc014db8a92bb0c70b790089b2f0bcbd3a0bb9f7143c7d8c778",
+      "name" : "FirebaseDatabaseSwift",
+      "container" : "FirebaseDatabaseSwift.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "b69f7ef201435845a9818479176a67b6e2ac6120652315fad90f23be21dce27e",
+      "name" : "FirebaseSharedSwift",
+      "container" : "FirebaseSharedSwift.xcframework",
+      "identifier" : "ios-arm64_x86_64-maccatalyst"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "3c235e7a9932f5df5b3e000cee864aa1ecca6f50bef2b83e9608cc6656c397dd",
+      "name" : "FirebaseSharedSwift",
+      "container" : "FirebaseSharedSwift.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "e6edaf25df172b8c81601c197d5c149c1e8c48e175da8870fcb4f702d0dc4173",
+      "name" : "FirebaseSharedSwift",
+      "container" : "FirebaseSharedSwift.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "358a7adfd2f9e1f900691d2afe742d9f202a044dce8e21735b7cf0c541e8ee5b",
+      "name" : "leveldb-library",
+      "container" : "leveldb-library.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "55c59b7c2b4ec1821e3d7df28a5f7f044fc6fd1c720cd1544c9f37f0bcae1c0f",
+      "name" : "leveldb-library",
+      "container" : "leveldb-library.xcframework",
+      "identifier" : "ios-arm64_x86_64-maccatalyst"
+    },
+    {
+      "hash" : "717280c0f01f3464f6c128ff002eea0c4ae68659fd61f9f2d41909313cb7ee88",
+      "name" : "leveldb-library",
+      "container" : "leveldb-library.xcframework",
+      "identifier" : "ios-arm64"
+    }
+  ]
+}
