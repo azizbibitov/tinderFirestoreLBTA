@@ -1,2 +1,2 @@
 # tinderFirestoreLBTA
-iOS swift Programmatical UIKit with Firebase LBTA Course
+iOS swift Programmatical UIKit with Firestore LBTA Course
